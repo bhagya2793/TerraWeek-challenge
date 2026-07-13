@@ -61,8 +61,13 @@ terraform version
 
 terraform -help
 
+```
+
 🚀 Task 4: Hands-on Implementation
+
 I performed a full deployment using the local and random providers.
+
+```bash
 
 The Core Workflow
 terraform init: Initialized the directory and installed required provider plugins.
@@ -78,3 +83,5 @@ terraform apply: Executed the plan to create the resources.
 Result: Verified by running cat greeting.txt.
 
 terraform destroy: Cleaned up all provisioned resources to ensure no leftover clutter.
+
+```
