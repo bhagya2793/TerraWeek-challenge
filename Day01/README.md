@@ -1,3 +1,4 @@
+Date: Sunday, 12th July 2026
 # 🚀 Day 01: Introduction to IaC & Terraform
 
 This repository documents my progress for **Day 1 of the 7-Day Terraform Challenge**.
