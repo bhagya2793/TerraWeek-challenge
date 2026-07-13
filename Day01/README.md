@@ -61,3 +61,20 @@ terraform version
 
 terraform -help
 
+🚀 Task 4: Hands-on Implementation
+I performed a full deployment using the local and random providers.
+
+The Core Workflow
+terraform init: Initialized the directory and installed required provider plugins.
+
+terraform fmt: Standardized the code formatting for readability.
+
+terraform validate: Verified that the HCL configuration was syntactically correct.
+
+terraform plan: Previewed the creation of a random string and a local file.
+
+terraform apply: Executed the plan to create the resources.
+
+Result: Verified by running cat greeting.txt.
+
+terraform destroy: Cleaned up all provisioned resources to ensure no leftover clutter.
