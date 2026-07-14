@@ -1,1 +1,5 @@
-Day01 TerraWeek 2026!, Welcome to TerraWeek Challenge!
+Hello from TerraWeek 2026! 🚀
+
+Your infra pet name is: above-whale
+
+Welcome to Terraform Week Challenge.
