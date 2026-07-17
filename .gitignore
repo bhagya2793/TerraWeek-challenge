@@ -1,5 +1,6 @@
 # Terraform directory
 .terraform/
+**/.terraform/
 
 # Terraform state files
 *.tfstate
@@ -21,11 +22,3 @@ override.tf.json
 
 # Terraform plan files
 *.tfplan
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
