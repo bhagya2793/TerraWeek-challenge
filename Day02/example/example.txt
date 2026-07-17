@@ -1,1 +1,0 @@
-Terraform Day 2 HCL Deep Dive

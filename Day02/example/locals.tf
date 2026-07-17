@@ -1,22 +1,12 @@
 locals {
+  name_prefix = "tws-${var.environment}"
 
-  name_prefix = "${var.environment}-terraform"
-
-
-  common_tags = merge(
-    var.tags,
+  common_labels = merge(
     {
+      project     = "terraweek"
       environment = var.environment
-    }
+      managed_by  = "terraform"
+    },
+    var.extra_labels
   )
-
-
-  app_name_upper = upper(var.app_config.name)
-
-
-  joined_names = join(
-    "-",
-    var.app_names
-  )
-
 }

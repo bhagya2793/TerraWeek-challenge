@@ -1,33 +1,23 @@
+output "container_name" {
+  description = "Docker container name"
+  value       = docker_container.web.name
+}
+
+output "container_id" {
+  description = "Docker container ID"
+  value       = docker_container.web.id
+}
+
+output "image_name" {
+  description = "Docker image"
+  value       = docker_image.nginx.name
+}
+
+output "application_url" {
+  description = "Access URL"
+  value       = "http://localhost:${var.external_port}"
+}
+
 output "environment" {
-
   value = var.environment
-
-}
-
-
-output "name_prefix" {
-
-  value = local.name_prefix
-
-}
-
-
-output "common_tags" {
-
-  value = local.common_tags
-
-}
-
-
-output "application_name" {
-
-  value = local.app_name_upper
-
-}
-
-
-output "joined_application_names" {
-
-  value = local.joined_names
-
 }
